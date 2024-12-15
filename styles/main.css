@@ -42,10 +42,11 @@ header img {
 }
 /* the styles for the navigation menu */
 #nav_menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
+	display: flex; /* Use Flexbox */
+  list-style-type: none;
+  justify-content: space-around; /* Evenly distribute menu items */
+  margin: 0;
+  padding: 0;
 }
 #nav_menu ul li {
 	float: left;
