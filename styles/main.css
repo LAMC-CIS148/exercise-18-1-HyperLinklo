@@ -12,7 +12,14 @@ body {
     width: 800px;
     margin: 0 auto;
     border: 3px solid #800000;
-    background-color: #fffded;
+    background-image: -moz-linear-gradient(
+        30deg, #4b0908 0%, #4b0908 30%, white 50%, #4b0908 80%, #4b0908 100%);
+    background-image: -webkit-linear-gradient(
+        30deg, #4b0908 0%, #4b0908 30%, white 50%, #4b0908 80%, #4b0908 100%);
+    background-image: -o-linear-gradient(
+        30deg, #4b0908 0%, #4b0908 30%, white 50%, #4b0908 80%, #4b0908 100%);
+    background-image: linear-gradient(
+        30deg, #4b0908 0%, #4b0908 30%, white 50%, #4b0908 80%, #4b0908 100%);
 }
 a:focus, a:hover {
 	font-style: italic;
